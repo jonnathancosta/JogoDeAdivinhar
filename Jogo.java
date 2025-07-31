@@ -7,7 +7,7 @@ public class Jogo {
         int num = r.nextInt(20);//Definindo o alcance do número a ser gerado aleatoriamente.
         int x, i = 1;
         Scanner s = new Scanner(System.in);
-        System.out.println("Digite um número de 0 a 20: ");
+        System.out.println("Digite um número entre 0 e 20: ");
         x = s.nextInt();
         //Abaixo iremos definir as condições possíveis dentro do jogo e suas respectivas orientações ao usuário/jogador.
         while (x != num) { 
